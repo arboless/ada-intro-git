@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.fuente{
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif!important;
+
+}
+.container{
+   background-color: rgb(222, 243, 253);
+    width: 100vw;
+    height: 100vh;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 50px;
+
+}
+
+.displayflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.displayflexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+hr{
+    border-top: 2px solid rgb(228, 227, 227);
+}
+.margentop20{
+    margin-top: 20px;
+}
+.boton{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border: 1px solid red;
+    transition: 0.8s;
+}
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border: 1px solid red;
+    transition: 0.8s;
+}
+
+.margenizq{
+    margin-left: 15px;
+}
+
+.card{
+    background-color: rgb(255, 255, 249);
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 245px;
+    height: 170px;
+    padding: 13px;
+}
+
+.cardlarga{
+    background-color: rgb(255, 255, 249);
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 245px;
+    height: 350px;
+    padding: 13px;
+}
+
+
+.dexterstock{
+    width: 275px;
+    height: 350px;
+
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.logolargo{
+    width: 70%;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.sorpresa{
+font-size: 90px;
+}
